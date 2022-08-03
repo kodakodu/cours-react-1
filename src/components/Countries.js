@@ -5,6 +5,7 @@ import Card from './Card';
 const Countries = () => {
   const [data, setData] = useState([]);
   const [rangeValue, setRangeValue] = useState(36);
+  const radios = ['Africa', 'America', 'Asia', 'Europe', 'Oceania'];
 
   useEffect(() => {
     axios
